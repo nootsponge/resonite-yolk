@@ -5,6 +5,9 @@ on:
     branches:
       - 'main'
 
+env:
+  REGISTRY: ghcr.io
+
 jobs:
   docker:
     runs-on: ubuntu-latest
@@ -29,4 +32,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ghcr.io/nootsponge/resonite-yolk:latest
+          tags: nootsponge/resonite-yolk:latest
