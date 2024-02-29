@@ -29,4 +29,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: nootsponge/resonite-yolk:latest
+          tags: ghcr.io/nootsponge/resonite-yolk:latest
